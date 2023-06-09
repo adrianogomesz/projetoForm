@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title> Formulário </title>
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+    
+    <body> 
+
+        <main id="container"> 
+            
+            <form id="form" method="post" action="localhost:5000"> 
+                <div id="form_header"> 
+
+                    <h1> Login </h1>
+                    <img src="/images/logo_login.png" alt="logo_login">
+
+                </div>
+
+                <div id="inputs">
+
+                    <div class="input_box">
+
+                        <label for="nome"> Nome Completo
+
+                            <div class="input_field">
+                                <img src="/images/icone_user.png" height="25px" alt="icone_nome">
+                                <input type="text" id="nome" name="nome" required="required">
+                            </div>
+                            
+                        </label>
+
+                        <label for="email"> E-mail 
+
+                            <div class="input_field">
+                                <img src="/images/icone_email.png" height="25px" alt="icone_nome">
+                                <input type="email" id="email" name="email" required="required">
+                            </div>
+                            
+                        </label>
+
+                        <label for="telefone"> Telefone 
+
+                            <div class="input_field">
+                                <img src="/images/icone_telefone.png" height="25px" alt="icone_nome">
+                                <input type="tel" id="telefone" name="telefone" required="required">
+                            </div>
+                            
+                        </label>
+
+                        <label for="senha"> Senha 
+
+                            <div class="input_field">
+                                <img src="/images/icone_senha.png" height="25px" alt="icone_nome">
+                                <input type="password" id="senha" name="senha" required="required">
+                            </div>
+                            
+                        </label>
+
+                        <label for="data"> Data de Nascimento 
+
+                            <div class="input_field">
+                                <img src="/images/icone_data.png" height="25px" alt="icone_nome">
+                                <input type="date" id="data_nascimento" name="data_nascimento" required="required">
+                            </div>
+                            
+                        </label>
+
+                        <button type="submit" id="button" name="button" onclick="receberDados()"> Cadastrar </button>
+                        
+
+                    </div>
+                </form>
+                </div>
+
+                <script src="script.js"> </script> 
+
+        </main>
+
+           
+    </body> 
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "projetoform-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianogomesz/ProjetoForm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianogomesz/ProjetoForm/issues"
+  },
+  "homepage": "https://github.com/adrianogomesz/ProjetoForm#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
